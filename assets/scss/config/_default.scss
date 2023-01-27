@@ -1,0 +1,19 @@
+@use "colors";
+@use "fonts";
+
+body {
+  background: url("../images/bg-mobile.svg") no-repeat, colors.$violet;
+}
+
+h1 {
+  font-family: fonts.$headings;
+}
+
+p, button {
+  font-family: fonts.$body;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
