@@ -21,6 +21,12 @@ img {
     padding: 4rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 4rem 4rem 0 4rem;
+    background: url("../images/bg-desktop.svg") no-repeat, hsl(257deg, 40%, 49%);
+  }
+}
 header .header-img {
   width: 42%;
 }
@@ -34,6 +40,14 @@ header .header-img {
     width: 30%;
   }
 }
+@media screen and (min-width: 1024px) {
+  header {
+    width: 100%;
+  }
+  header .header-img {
+    width: 17%;
+  }
+}
 .mockups {
   margin-top: 3.3rem;
 }
@@ -42,6 +56,16 @@ header .header-img {
   .mockups .mockups-img {
     margin: 0 auto;
     width: 80%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mockups {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .mockups .mockups-img {
+    margin: 1.3rem 0 0 0;
+    width: 97%;
   }
 }
 .content {
@@ -66,10 +90,25 @@ header .header-img {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+@media screen and (min-width: 1024px) {
+  .content {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 5rem;
+    text-align: left;
+  }
+  .content .content-title {
+    width: 80%;
+    font-size: 2rem;
+  }
+  .content .content-text {
+    width: 95%;
+  }
+}
 .social-media {
   display: flex;
   justify-content: center;
-  margin: 3.3rem;
+  margin-top: 3.3rem;
   color: white;
 }
 .social-media i {
@@ -81,6 +120,22 @@ header .header-img {
   text-align: center;
 }
 
+@media screen and (min-width: 1024px) {
+  .social-media {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: right;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: repeat(2, auto);
+    gap: 0 2rem;
+  }
+}
 footer {
   text-align: center;
   line-height: 1.5;
