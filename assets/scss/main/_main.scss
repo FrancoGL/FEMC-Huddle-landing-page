@@ -1,3 +1,12 @@
 @use "mockups";
 @use "content";
 @use "social-media";
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: repeat(2, auto);
+    gap: 0 2rem;
+  }
+}
