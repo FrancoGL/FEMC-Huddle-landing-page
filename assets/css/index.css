@@ -104,6 +104,11 @@ header .header-img {
   .content .content-text {
     width: 95%;
   }
+  .content .content-btn:hover {
+    background-color: hsl(300deg, 69%, 71%);
+    color: white;
+    transition: background-color ease-in-out 0.5s;
+  }
 }
 .social-media {
   display: flex;
