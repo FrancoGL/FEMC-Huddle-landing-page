@@ -41,5 +41,11 @@
     .content-text {
       width: 95%;
     }
+
+    .content-btn:hover {
+      background-color: colors.$soft-magenta;
+      color: white;
+      transition: background-color ease-in-out 0.5s;
+    }
   }
 }
