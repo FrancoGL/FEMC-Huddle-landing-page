@@ -48,26 +48,22 @@ header .header-img {
     width: 17%;
   }
 }
-.mockups {
+.mockups-img {
   margin-top: 3.3rem;
-}
-.mockups .mockups-img {
   width: 100%;
   height: auto;
 }
 
 @media screen and (min-width: 768px) {
-  .mockups .mockups-img {
+  .mockups-img {
     margin: 0 auto;
     width: 80%;
   }
 }
 @media screen and (min-width: 1024px) {
-  .mockups {
+  .mockups-img {
     grid-column: 1/2;
     grid-row: 1/2;
-  }
-  .mockups .mockups-img {
     margin: 1.3rem 0 0 0;
     width: 97%;
   }
